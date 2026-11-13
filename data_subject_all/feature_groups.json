@@ -1,0 +1,38 @@
+{
+ "eye": [
+  "ear_mean",
+  "ear_std",
+  "ear_p10",
+  "perclos_50",
+  "perclos_70",
+  "perclos_80",
+  "perclos_90",
+  "n_blinks",
+  "blink_rate",
+  "blink_dur_mean",
+  "blink_dur_max",
+  "n_long_blinks",
+  "blink_depth_mean",
+  "closed_run_max_s"
+ ],
+ "mouth": [
+  "mar_mean",
+  "mar_std",
+  "mar_max",
+  "mouth_open_frac",
+  "n_yawns"
+ ],
+ "head": [
+  "pitch_mean",
+  "pitch_std",
+  "yaw_mean",
+  "yaw_std",
+  "roll_std",
+  "pitch_p10",
+  "head_motion"
+ ],
+ "brow": [
+  "brow_mean",
+  "brow_std"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "protocol": "5-fold subject-grouped cross-validation",
+  "sequence_length": 5,
+  "number_of_input_features": 28,
+  "number_of_sequences": 6503,
+  "number_of_videos": 180,
+  "accuracy": 0.41780716592342,
+  "macro_precision": 0.4140821043636372,
+  "macro_recall": 0.4176605810146909,
+  "macro_f1": 0.41536847446063024,
+  "video_level_accuracy_mean_probability": 0.4388888888888889,
+  "confusion_matrix": [
+    [
+      1020,
+      701,
+      420
+    ],
+    [
+      826,
+      630,
+      708
+    ],
+    [
+      489,
+      642,
+      1067
+    ]
+  ]
+}

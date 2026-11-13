@@ -1,0 +1,2 @@
+test_fold,validation_fold,selected_epochs,validation_macro_f1,test_clips,accuracy,macro_precision,macro_recall,macro_f1
+0,1,1,0.49555182916119783,2174,0.5607175712971482,0.5551220323352237,0.5747790605081867,0.5010551265869563

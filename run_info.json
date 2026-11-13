@@ -1,0 +1,12 @@
+{
+ "calibration": "subject_alert",
+ "win_s": 30.0,
+ "step_s": 15.0,
+ "blink_thr": 0.8,
+ "closed_thrs": [
+  0.5,
+  0.7,
+  0.8,
+  0.9
+ ]
+}

@@ -1,0 +1,7 @@
+comparison,acc_diff,ci95,supported
+ensemble  minus  PERCLOS-only LogReg,0.03,"[-0.003, +0.062]",False
+xgb  minus  PERCLOS-only LogReg,0.036,"[+0.006, +0.067]",True
+rf  minus  PERCLOS-only LogReg,0.023,"[-0.005, +0.053]",False
+ensemble  minus  xgb,-0.007,"[-0.028, +0.014]",False
+ensemble  minus  rf,0.007,"[-0.018, +0.032]",False
+ensemble  minus  mlp,0.019,"[+0.000, +0.038]",False

@@ -1,0 +1,6 @@
+comparison,acc_diff,ci95,supported
+C SeqNet (conv+LSTM)  minus  B FrameNet (no time),-0.038,"[-0.067, -0.008]",True
+C SeqNet (conv+LSTM)  minus  A ensemble (handcrafted),-0.029,"[-0.063, +0.007]",False
+B FrameNet (no time)  minus  A ensemble (handcrafted),0.009,"[-0.025, +0.044]",False
+D SeqNet + handcrafted  minus  A ensemble (handcrafted),-0.017,"[-0.052, +0.017]",False
+D SeqNet + handcrafted  minus  C SeqNet (conv+LSTM),0.012,"[-0.020, +0.043]",False
