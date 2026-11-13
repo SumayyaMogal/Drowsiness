@@ -258,7 +258,7 @@ Do not assume that reproducing a result is possible from the CSV files alone; th
 | Geethika | IIB2024024 | Dataset collection and preprocessing |
 | Rithwika | IIB2024021 | Feature engineering and subject calibration |
 | Archee | IIB2024022 | Model development and training |
-| Summaya | IIB2024032 | Experimentation and evaluation |
+| Sumayya | IIB2024032 | Experimentation and evaluation |
 
 ## References
 
