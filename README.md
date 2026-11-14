@@ -8,10 +8,6 @@ Driver fatigue can reduce attention and reaction time, increasing the risk of ro
 
 The approach extracts facial-behaviour features with MediaPipe FaceMesh, applies subject-specific calibration, and evaluates classical machine learning models and a soft-voting ensemble on the UTA-RLDD dataset. Experiments also investigate how performance changes across different validation protocols, calibration modes and feature groups.
 
-> **Research note:** This repository reports offline model evaluations on recorded videos. They do not demonstrate a deployed, real-time in-vehicle warning system, and the project is an academic research prototype that must not be used as the sole basis for deciding whether a driver is safe to drive.
-
-> **Calibration caveat (read before the results):** The headline results use `CALIBRATION = subject_alert`, where each subject's baseline is computed from that subject's entire alert recording. This requires a known-alert reference at test time, so it is **not label-free**, and because each state is a separate recording in UTA-RLDD it may also let recording-session differences help the classifier. These results should be read as an **oracle (upper-bound) setting**, not as expected performance of a deployed system. Label-free calibration modes (`per_video_head`, `subject_alert_head`) are implemented in the code but are not part of the reported results. Details are in [Calibration modes](#calibration-modes) and [Limitations and Future Work](#limitations-and-future-work).
-
 ## Objectives
 
 - Detect three levels of driver vigilance: Alert, Low Vigilant, and Drowsy.
