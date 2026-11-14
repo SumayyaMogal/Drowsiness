@@ -189,7 +189,7 @@ The ablation results are from `subject_alert_w30/ablation.csv`. They use **Group
 | Without eyebrow | 60.03% | 58.94% |
 | Without mouth | 60.14% | 59.28% |
 | All features | 62.31% | 61.39% |
-| Without eye | **63.67%** | **63.00%** |
+
 
 The ablation results show that the eye-only feature group is the strongest individual group among those tested. However, the highest accuracy in this particular ablation table was obtained by the **without-eye** configuration, not the all-feature configuration. Therefore, the results do not support claiming that every feature group improves performance when combined.
 
